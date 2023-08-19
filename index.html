@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contest2</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- nav bar -->
+    <nav>
+
+      <div class="left">
+        <a class="a" href="#">Library System</a>
+      </div>
+
+      <div class="right">
+        <a class="a" href="#1">Books</a>
+        <a class="a" href="#2">Register</a>
+        <a class="a" href="#">Contact Us</a>
+        <a class="a" href="#">Logout</a>
+      </div>
+
+    </nav>
+
+    <!-- table  -->
+    <div id="1" class="div1">
+      <h2 id="books">Books</h2>
+      <table class="tab">
+        <!-- heading row -->
+        <tr>
+          <th>BookId</th>
+          <th>Title</th>
+          <th>Author</th>
+          <th>Genre</th>
+          <th>Availability</th>
+        </tr>
+        <!-- row1 -->
+        <tr>
+          <td>1</td>
+          <td>
+              <table>
+            <a class="caption" href="#">Book Title 1</a>
+            <tr class="row1"><td>Publication Date 2005</td></tr>
+            <tr><td>PageCount 300</td></tr>
+            <tr><td>ISBN: 123-4567890456</td></tr>
+        </table>
+          </td>
+          <td>Author Name 1</td>
+          <td>Genre 1</td>
+          <td>Avalable</td>
+        </tr>
+        <!-- row 2 -->
+        <tr>
+          <td>2</td>
+          <td>
+            <table>
+          <a class="caption" href="#">Book Title 1</a>
+          <tr class="row1"><td>Publication Date 2005</td></tr>
+          <tr><td>PageCount 300</td></tr>
+          <tr><td>ISBN: 123-4567890456</td></tr>
+      </table>
+        </td>
+          <td>Author Name 2</td>
+          <td>Genre 2</td>
+          <td>Not Avalable</td>
+        </tr>
+        <!-- row 3 -->
+        <tr>
+          <td>3</td>
+          <td>
+            <table>
+          <a class="caption" href="#">Book Title 1</a>
+          <tr class="row1"><td>Publication Date 2005</td></tr>
+          <tr><td>PageCount 300</td></tr>
+          <tr><td>ISBN: 123-4567890456</td></tr>
+      </table>
+        </td>
+          <td>Author Name 3</td>
+          <td>Genre 3</td>
+          <td>Avalable</td>
+        </tr>
+      </table>
+    </div>
+
+    <!-- form -->
+
+    <div id="2" class="form">
+        <form>
+            <h2 class="reg">Register</h2>
+            <label>First Name: <br><input type="text" placeholder="firstName" value="firstName" ></label><br>
+            <label>Last Name: <br><input type="text" placeholder="lastName" value="lastName"></label><br>
+            <label>date Of Birth: <br><input type="date" value="dateOfBirth"></label><br>
+            <label>age: <br><input type="number" value="age"></label><br>
+            <label>Email: <br><input type="email" placeholder="emailId" value="emailId"></label><br>
+            <label>Password: <br><input type="password"></label><br>
+            <label>Confirm Password: <br> <input type="password" ></label><br>
+            <label><input class="submit" type="submit"></label>
+        </form>
+    </div>
+                         
+  </body>
+</html>

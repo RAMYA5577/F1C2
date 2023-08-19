@@ -1,0 +1,102 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: lightgrey;
+}
+
+nav{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 55px;
+    position: sticky;
+    top: 0px;
+}
+.right{
+    background-color: black;
+}
+.left{
+    margin-left: 30px;
+    background-color: black;
+}
+
+.a{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+}
+
+/* table */
+.div1{
+   width: 600px;
+   height: 500px;
+    background-color: white;
+    display: block;
+    margin: 20px;
+    margin-left: 450px;
+    border: 1px solid gray;
+}
+.tab{
+    margin: 20px;
+}
+table{
+    margin-left: 5px;
+}
+
+table,th,td{
+    padding: 5px;
+    background-color: white;
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding-left: 5px;
+}
+#books{
+    margin: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    background-color: white;
+}
+.caption{
+    text-decoration: underline;
+    color: blue;
+    margin-left: 0px;
+    background-color: white;
+    margin: 3px;
+   
+}
+.row1{
+    margin-top: 20px;
+}
+
+/* form */
+.form{
+    width: 600px;
+    height: 500px;
+    background-color: white;
+    display: block;
+  
+    margin-left: 450px;
+    border: 1px solid gray;
+}
+form,h2,label,input{
+    background-color: white;
+}
+h2{
+    margin: 15px;
+}
+label{
+    margin: 15px;
+}
+input{
+    margin: 5px 15px;
+    padding: 5px;
+    width: 550px;
+}
+.submit{
+    margin-left: 0px;
+    background-color: black;
+    color: white;
+    width: 563px;
+}
